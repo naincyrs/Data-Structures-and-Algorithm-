@@ -1,0 +1,13 @@
+#include<iostream>
+int main() {
+    std::cout << "Hii !";
+    return 0;
+}
+
+Output using cout function :
+
+To display output we use the cout function from the iostream library. 
+We need to specify that it belongs to the std (standard) namespace. 
+Like std::cout << "Hii !"; will print "Hii !" to the console.
+We enclose the text you want to display within double quotation marks.
+

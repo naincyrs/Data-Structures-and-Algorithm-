@@ -1,0 +1,10 @@
+basic layout 
+
+The skeleton of a C++ program consists of two main components: the library inclusion and the main function. After including the necessary libraries, you declare the main function .
+
+#include<iostream>
+
+int main() {
+    // Your code here
+    return 0;
+}
