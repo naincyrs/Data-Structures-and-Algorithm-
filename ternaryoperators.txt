@@ -1,0 +1,25 @@
+Ternary Operator:
+shortcut for if-else statement
+3 operands 
+conditional expression
+Syntax:
+condition ? value-if-true : value-if-false;
+return isNegative ? -num : num;
+
+Elaborated:
+bool isNegative = false;
+if (n < 0) {
+    isNegative = true;
+    n = abs(n);
+}
+
+IMP points to remember while using it:
+    Used for expressions (returning a value), not for statements.
+    Not necessarily used with boolean.
+
+Example:
+int a = 10, b = 20;
+int max = (a > b) ? a : b;
+cout << max;
+
+Note: same can be used with strings and floating point numbers.
